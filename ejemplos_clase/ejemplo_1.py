@@ -5,8 +5,8 @@
 # Version: 2.0
 
 # Ejemplos varialbles numéricas (números enteros --> int)
-numero_1 = 2
-numero_2 = 4
+numero_1 = 8        
+numero_2 = 9
 
 suma = numero_1 + numero_2   # Operamos la suma
 # Imprimimos en consola el resultado
