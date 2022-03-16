@@ -29,5 +29,27 @@ E) Exponente/Potencia
   ej: La suma entre 4.2 y 6.5 es 10.7
 '''
 
+from re import A
+
+
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+
+print('Ingrese el primer numero:')
+numero_1 = float(input())
+
+print('Ingrese el segundo numero:')
+numero_2 = float(input())
+
+print('''Ingrese la funcion: 
+1) Suma 
+2) Resta 
+3) Multiplicacion 
+4) Division 
+5) Potencia''')
+funcion = str(input('Funcion: '))
+suma = numero_1 + numero_2
+
+if funcion == A:
+  print('')
+print('La suma entre', numero_1 ,'y', numero_2 ,'es', suma)
