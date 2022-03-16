@@ -17,7 +17,6 @@ numero_2 = 7
 # Almacenar el valor de la suma en una variable
 # ej:
 # operacion = .....
-
 # Imprimir en pantalla el resultado de la suma
 # print(....)
 
