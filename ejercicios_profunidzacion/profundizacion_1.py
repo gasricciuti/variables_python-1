@@ -29,9 +29,6 @@ E) Exponente/Potencia
   ej: La suma entre 4.2 y 6.5 es 10.7
 '''
 
-from pdb import Restart
-
-
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
 
@@ -50,26 +47,22 @@ print('''Ingrese alguna opcion:
 6) Salir ''')
 
 funcion = int(input('Funcion: '))
-suma = numero_1 + numero_2
-resta = numero_1 - numero_2
-multiplicacion = numero_1 * numero_2
-division = numero_1 / numero_2
-potencia = numero_1 ** numero_2
 
 if funcion == 1:
   print('')
-  print('La suma entre', numero_1 ,'y', numero_2 ,'es', suma)
+  print('La suma entre', numero_1 ,'y', numero_2 ,'es', numero_1 + numero_2)
 elif funcion == 2:
   print('')
-  print('La resta entre', numero_1 ,'y', numero_2 ,'es', resta)
+  print('La resta entre', numero_1 ,'y', numero_2 ,'es', numero_1 - numero_2)
 elif funcion == 3:
   print('')
-  print('La multiplicacion entre', numero_1 ,'y', numero_2 ,'es', multiplicacion)
+  print('La multiplicacion entre', numero_1 ,'y', numero_2 ,'es', numero_1 * numero_2)
 elif funcion == 4:
   print('')
-  print('La division entre', numero_1 ,'y', numero_2 ,'es', float(division))
+  print('La division entre', numero_1 ,'y', numero_2 ,'es', float(numero_1 / numero_2))
 elif funcion == 5:
   print('')
-  print('La potencia de', numero_1 ,'y', numero_2 ,'es', potencia)
-elif funcion == 6:
+  print('La potencia de', numero_1 ,'y', numero_2 ,'es', numero_1 ** numero_2)
+else:
   print('Salir')
+
