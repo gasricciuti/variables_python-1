@@ -32,5 +32,5 @@ nombre_completo = nombre + ' ' + apellido
 
 cantidad_letras = len(nombre_completo)
 
-print('La cantidad de letras que posee su nombre completo es:', cantidad_letras - 1)
+print('La cantidad de letras que posee su nombre completo es:', cantidad_letras - 1) # -1 por el espacio entre nombre y  apellido
 
