@@ -55,7 +55,7 @@ print('El resultado de dividir', numero_1 ,'y', numero_2 ,'es', division)
 
 print('El resultado de multiplicar', numero_1 ,'y', numero_2 ,'es', multiplicacion)
 
-print('El resultado de sumar', {} ,'y', {} ,'es', {} , numero_1 , numero_2 , suma)
+
 
 
 
