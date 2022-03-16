@@ -1,7 +1,7 @@
 # Tipos de variables [Python]
 # Ejercicios de práctica
 
-# Autor: Inove Coding School
+# Autor: Gaston Ricciuti
 # Version: 2.0
 
 # IMPORTANTE: NO borrar los comentarios
@@ -21,4 +21,14 @@ numero_2 = 7
 # Imprimir en pantalla el resultado de la suma
 # print(....)
 
+suma = numero_1 + numero_2
+
+print('La suma de', numero_1 ,'+', numero_2 ,'=', suma)
+
 # Repita el procedimiento para realizar la resta
+
+resta = numero_1 - numero_2
+
+print('La resta de', numero_1 ,'-', numero_2 ,'=', resta)
+
+
