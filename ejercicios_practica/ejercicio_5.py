@@ -21,9 +21,6 @@ palabra_2 = str(input())
 # Formar una nueva palabra con los recortes solicitados
 # Imprima en pantalla los resultados
 
-palabra_1[:3]
-palabra_2[:2]
-
 nueva_palabra = palabra_1[:3] + palabra_2[:2]
 
 print('La nueva palabra formada es:', nueva_palabra)
