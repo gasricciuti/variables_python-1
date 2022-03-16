@@ -1,7 +1,7 @@
 # Tipos de variables [Python]
 # Ejercicios de práctica
 
-# Autor: Inove Coding School
+# Autor: Gaston Ricciuti
 # Version: 2.0
 
 # IMPORTANTE: NO borrar los comentarios
@@ -19,8 +19,18 @@ apellido = str(input())
 
 # Imprima su nombre completo
 
+print('Su nombre y apellido es:', nombre , apellido)
+
 # Almacenar su nombre completo en una variable
 # nombre_completo = .....
 
+nombre_completo = nombre + ' ' + apellido
+
+
 # Imprimir la cantidad de letras que posee su nombre completo
 # cantidad_letras = len(....)
+
+cantidad_letras = len(nombre_completo)
+
+print('La cantidad de letras que posee su nombre completo es:', cantidad_letras - 1)
+
