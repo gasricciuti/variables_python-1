@@ -1,7 +1,7 @@
 # Tipos de variables [Python]
 # Ejercicios de profundización
 
-# Autor: Inove Coding School
+# Autor: Gaston Ricciuti
 # Version: 2.0
 
 # NOTA: 
