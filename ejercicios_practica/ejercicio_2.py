@@ -1,7 +1,7 @@
 # Tipos de variables [Python]
 # Ejercicios de práctica
 
-# Autor: Inove Coding School
+# Autor: Gaston Ricciuti
 # Version: 2.0
 
 # IMPORTANTE: NO borrar los comentarios
@@ -20,6 +20,11 @@ numero_2 = int(input())
 # Alumno: Imprima en pantalla los dos números enteros solicitados
 # print(....)
 
+print('Primer numero ingresado es', numero_1)
+
+print('Segundo numero ingresado es', numero_2)
+
+
 # Alumno: Calcule la suma, resta, división y multiplicación de los números ingresados
 # numero_1, numero_2
 # Imprima en pantalla todos los resultados con el siguiente formato de ejemplo:
@@ -28,8 +33,30 @@ numero_2 = int(input())
 
 # Suma
 
+suma = numero_1 + numero_2
+
 # Resta
+
+resta = numero_1 - numero_2
 
 # División
 
+division = numero_1 / numero_2
+
 # Multiplicación
+
+multiplicacion = numero_1 * numero_2
+
+print('El resultado de sumar', numero_1 ,'y', numero_2 ,'es', suma)
+
+print('EL resultado de restar', numero_1 ,'y', numero_2 ,'es', resta)
+
+print('El resultado de dividir', numero_1 ,'y', numero_2 ,'es', division)
+
+print('El resultado de multiplicar', numero_1 ,'y', numero_2 ,'es', multiplicacion)
+
+print('El resultado de sumar', {} ,'y', {} ,'es', {} , numero_1 , numero_2 , suma)
+
+
+
+
