@@ -33,10 +33,10 @@ print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
 
 print('Ingrese el primer numero:')
-numero_1 = float(input())
+numero_1 = int(input())
 
 print('Ingrese el segundo numero:')
-numero_2 = float(input())
+numero_2 = int(input())
 
 print('''Ingrese la funcion: 
 1) Suma 
