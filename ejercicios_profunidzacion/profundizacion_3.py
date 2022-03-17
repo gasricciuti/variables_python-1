@@ -50,3 +50,6 @@ print(nombre_completo.upper())
 
 print('')
 print(nombre_completo.capitalize())
+
+print('')
+print(nombre_completo.title())
