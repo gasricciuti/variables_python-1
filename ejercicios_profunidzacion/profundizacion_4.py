@@ -46,11 +46,11 @@ Cualquier duda con el método split pueden consultarla por el campus
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
 
-print('Ingresar nombre del padre:')
+print('Ingresar nombre del padre (formato nombre - apellido):')
 print('')
 padre_1 = str(input())
 
-print('Ingresar nombre de la madre:')
+print('Ingresar nombre del madre:(formato nombre - apellido):')
 print('')
 madre_1 = str(input())
 
@@ -58,9 +58,9 @@ print('Ingresar nombre del hijo/a:')
 print('')
 hijo_1 = str(input())
 
-apellido_padre = padre_1.split()
-apellido_madre = madre_1.split()
-apellido_hijo = hijo_1.split()
-print('El nombre completo del hijo/a es:', apellido_hijo , apellido_padre , apellido_madre)
+nombre_padre, apellido_padre = padre_1.split('-')
+nombre_madre, apellido_madre = madre_1.split('-')
 
+
+print('El nombre completo del hijo/a es:', hijo_1.title() , apellido_padre.title() , apellido_madre.title())
 
