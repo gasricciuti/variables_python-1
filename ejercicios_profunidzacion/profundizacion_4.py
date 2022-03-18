@@ -1,7 +1,7 @@
 # Tipos de variables [Python]
 # Ejercicios de profundización
 
-# Autor: Inove Coding School
+# Autor: Gaston Ricciuti
 # Version: 2.0
 
 # NOTA: 
@@ -50,6 +50,17 @@ print('Ingresar nombre del padre:')
 print('')
 padre_1 = str(input())
 
-nombre, apellido = padre_1.split(',')
+print('Ingresar nombre de la madre:')
+print('')
+madre_1 = str(input())
 
-print('salir')
+print('Ingresar nombre del hijo/a:')
+print('')
+hijo_1 = str(input())
+
+apellido_padre = padre_1.split()
+apellido_madre = madre_1.split()
+apellido_hijo = hijo_1.split()
+print('El nombre completo del hijo/a es:', apellido_hijo , apellido_padre , apellido_madre)
+
+
