@@ -45,3 +45,11 @@ Cualquier duda con el método split pueden consultarla por el campus
 
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+
+print('Ingresar nombre del padre:')
+print('')
+padre_1 = str(input())
+
+nombre, apellido = padre_1.split(',')
+
+print('salir')
